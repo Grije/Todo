@@ -22,7 +22,7 @@
     import {defineComponent} from 'vue';
 
     import noteService from '@/services/noteService';
-    import {Note, Todo} from '@/types/types';
+    import {Note} from '@/types/types';
     import TodoCard from '@/components/TodoCard.vue';
 
     export default defineComponent({
